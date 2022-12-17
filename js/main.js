@@ -5,6 +5,6 @@ function menuShow() {
         document.querySelector('.icon').src =  "imagens/menu.png";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('icon').src =  "imagens/menu-close.png";  
+        document.querySelector('.icon').src =  "imagens/menu-close.png";  
     }
 }
